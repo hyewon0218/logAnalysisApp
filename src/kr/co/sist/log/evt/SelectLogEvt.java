@@ -188,8 +188,13 @@ public class SelectLogEvt implements ActionListener {
 	
 	public void countRequestHour(String temp) {
 		// 4. 요청 시간별 횟수를 구하는 method.
-
-		Map<String, Integer>map=new HashMap<String,Integer>();
+		String hour = temp.substring(
+				temp.lastIndexOf("[")+1, temp.lastIndexOf("]"))
+				.substring(11, 13);
+		
+		mapHour.put(hour, 0);
+		System.out.println(mapHour);
+//		mapHour.put(hour, );//value 배열로해결
 		
 		// String key=
 	}
