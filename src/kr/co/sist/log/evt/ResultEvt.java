@@ -2,7 +2,6 @@ package kr.co.sist.log.evt;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import kr.co.sist.log.view.Result;
 
 public class ResultEvt implements ActionListener {

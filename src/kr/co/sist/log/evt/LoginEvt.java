@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 import kr.co.sist.log.view.Login;
 import kr.co.sist.log.view.SelectLog;
 
-
+/////////////// 12-22-2018 로그인  Event구현(헤원) //////////////////////
 public class LoginEvt implements ActionListener {
 
 	private Login login;
